@@ -57,9 +57,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>II_PLATFORM_WINDOWS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FE_PLATFORM_WINDOWS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)ImagineIncredible\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)FancyEngine\src;$(SolutionDir)FancyEngine\third\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -72,9 +72,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>II_PLATFORM_WINDOWS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FE_PLATFORM_WINDOWS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)ImagineIncredible\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)FancyEngine\src;$(SolutionDir)FancyEngine\third\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -84,7 +84,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ImagineIncredible\ImagineIncredible.vcxproj">
+    <ProjectReference Include="..\FancyEngine\FancyEngine.vcxproj">
       <Project>{a295b088-b98d-47e7-85f5-eb49055621ff}</Project>
     </ProjectReference>
   </ItemGroup>

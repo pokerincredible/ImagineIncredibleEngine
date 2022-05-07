@@ -1,6 +1,6 @@
 #include "Application.h"
 
-namespace Imagine {
+namespace FE {
 
 	Application::Application()
 	{

@@ -1,6 +1,6 @@
-#include <ImagineIncredible.h>
+#include <FancyEngine.h>
 
-class Sandbox : public Imagine::Application
+class Sandbox : public FE::Application
 {
 public:
 	Sandbox()
@@ -14,7 +14,7 @@ public:
 	}
 };
 
-Imagine::Application* Imagine::CreateApplication()
+FE::Application* FE::CreateApplication()
 {
 	return new Sandbox();
 }

@@ -15,21 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\ImagineIncredible\Core.h">
+    <ClInclude Include="src\FancyEngine\Core.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\ImagineIncredible\Application.h">
+    <ClInclude Include="src\FancyEngine\Application.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\ImagineIncredible.h">
+    <ClInclude Include="src\FancyEngine.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\ImagineIncredible\EntryPoint.h">
+    <ClInclude Include="src\FancyEngine\EntryPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FancyEngine\Log.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ImagineIncredible\Application.cpp">
+    <ClCompile Include="src\FancyEngine\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FancyEngine\Log.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

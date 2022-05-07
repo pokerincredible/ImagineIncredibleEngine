@@ -2,9 +2,9 @@
 
 #include "Core.h"
 
-namespace Imagine {
+namespace FE {
 
-	class II_API Application
+	class FE_API Application
 	{
 	public:
 		Application();

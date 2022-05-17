@@ -1,6 +1,6 @@
 workspace "FancyEngineDemo"
-	architecture "x64"
-
+	startproject "Sandbox"
+    architecture "x64"
 	configurations
 	{
 		"Debug",

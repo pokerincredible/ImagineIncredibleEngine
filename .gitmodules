@@ -1,3 +1,0 @@
-[submodule "FancyEngine/third/spdlog"]
-	path = FancyEngine/third/spdlog
-	url = https://github.com/gabime/spdlog

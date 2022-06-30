@@ -2,9 +2,9 @@
 
 #include "Core.h"
 
-namespace FE {
+namespace PE {
 
-	class FE_API Application
+	class PE_API Application
 	{
 	public:
 		Application();

@@ -1,6 +1,6 @@
-#include <FancyEngine.h>
+#include <PokerEngine.h>
 
-class Sandbox : public FE::Application
+class Sandbox : public PE::Application
 {
 public:
 	Sandbox()
@@ -14,7 +14,7 @@ public:
 	}
 };
 
-FE::Application* FE::CreateApplication()
+PE::Application* PE::CreateApplication()
 {
 	return new Sandbox();
 }

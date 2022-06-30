@@ -1,0 +1,3 @@
+[submodule "PokerLib/third/spdlog"]
+	path = PokerLib/third/spdlog
+	url = https://github.com/gabime/spdlog

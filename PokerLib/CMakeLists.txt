@@ -7,13 +7,16 @@ add_library(${PROJECT_NAME} STATIC
     include/Log.h
     include/PokerEngine.h
 
-    src/Application.cpp
-    src/Log.cpp
-
     Events/Event.h
     Events/ApplicationEvent.h
     Events/KeyEvent.h
     Events/MouseEvent.h
+
+    src/Application.cpp
+    src/Log.cpp
+
+    include/pokerPch.h
+    src/pokerPch.cpp
 )
 
 #add_definitions(-DPE_PLATFORM_WINDOWS -DPE_BUILD_SHARED)
@@ -24,5 +27,12 @@ target_include_directories(${PROJECT_NAME}
     PUBLIC
         include
         Events
+        src
         third/spdlog/include
+)
+
+target_precompile_headers(${PROJECT_NAME}
+        PUBLIC
+        include/pokerPch.h
+        src/pokerPch.cpp
 )

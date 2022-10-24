@@ -5,10 +5,8 @@
 #ifndef POKERENGINE_EVENT_H
 #define POKERENGINE_EVENT_H
 
+#include "pokerPch.h"
 #include "Core.h"
-#include <string>
-#include <sstream>
-#include <functional>
 
 namespace PE{
     // Events in Poker are currently blocking, meaning when an event occurs it

@@ -36,3 +36,7 @@ target_precompile_headers(${PROJECT_NAME}
         include/pokerPch.h
         src/pokerPch.cpp
 )
+
+set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/third;${CMAKE_MODULE_PATH}")
+include(config)
+target_link_libraries(${PROJECT_NAME} PRIVATE spdlog::spdlog)

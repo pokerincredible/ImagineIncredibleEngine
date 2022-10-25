@@ -13,7 +13,7 @@ namespace PE {
 		s_CoreLogger = spdlog::stdout_color_mt("PokerEngine");
 		s_CoreLogger->set_level(spdlog::level::trace);
 
-		s_ClientLogger = spdlog::stderr_color_mt("Application");
+		s_ClientLogger = spdlog::stderr_color_mt("Sandbox");
 		s_ClientLogger->set_level(spdlog::level::trace); 
 	}
 
